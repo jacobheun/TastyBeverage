@@ -1,0 +1,19 @@
+{
+  "author": "",
+  "name": "tastybeverage",
+  "description": "TastyBeverage",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jacobheun/TastyBeverage.git"
+  },
+  "main": "server.js",
+  "engines": {
+    "node": "~0.6.9"
+  },
+  "dependencies": {
+    "flatiron": ""
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
