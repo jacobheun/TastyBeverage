@@ -12,7 +12,8 @@
     "node": "~0.6.9"
   },
   "dependencies": {
-    "flatiron": ""
+    "flatiron": "0.1.16",
+    "mongoose": "2.6.0"
   },
   "devDependencies": {},
   "optionalDependencies": {}
