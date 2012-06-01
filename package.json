@@ -15,7 +15,8 @@
     "flatiron": "0.1.16",
     "mongoose": "2.6.0",
     "connect": "2.2.1",
-    "express-uglify": "0.2.0"
+    "express-uglify": "0.2.0",
+    "mca": "0.0.1"
   },
   "devDependencies": {},
   "optionalDependencies": {}

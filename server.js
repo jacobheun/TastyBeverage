@@ -32,9 +32,8 @@ app.use(routes);
 app.start(port,
   function(err) {
     if(err) throw err;
-    app.log.info("      name :".blue, pkg.name.grey);
-    app.log.info("   version :".blue, pkg.version.grey);
-    app.log.info("started at :".blue, Date().grey);
-    app.log.info("   on port :".blue, port.grey);
-    app.log.info("   in mode :".blue, app.env.grey);
+
+    require('mca')(app.log, {
+                     port: port
+                   });
   });
